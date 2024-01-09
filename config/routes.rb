@@ -8,4 +8,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # Add the reset route here
+  get '/reset', to: 'pokedex#reset', as: 'reset_pokedex'
 end

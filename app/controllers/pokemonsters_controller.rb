@@ -3,7 +3,7 @@ class PokemonstersController < ApplicationController
 
   # GET /pokemonsters or /pokemonsters.json
   def index
-    @pokemonsters = Pokemonster.all
+    @pokemonsters = Pokemonster.order(:pokemon_ID)
   end
 
   # GET /pokemonsters/1 or /pokemonsters/1.json
@@ -45,6 +45,18 @@ class PokemonstersController < ApplicationController
         format.json { render json: @pokemonster.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  # RESET METHOD - this one was custom made
+  def reset
+    # Code to reset the data to seed values
+    # For example, you can delete all existing Pokemonsters and re-seed the database
+  
+    Pokemonster.destroy_all
+    # Code to re-seed the database with the initial values
+    # For example, you can call the seed method or run any necessary database queries
+  
+    redirect_to pokedex_path, notice: 'Pokedex reset successfully!'
   end
 
   # DELETE /pokemonsters/1 or /pokemonsters/1.json
