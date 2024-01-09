@@ -48,6 +48,8 @@ body {
     background-color: #4b4b4b;
     padding: 10px;
     margin-top: 10rem;
+    max-width: 1200px;
+    border-radius: 10px
   }
   
   
@@ -66,6 +68,14 @@ body {
 
   /* MY OWN STYLES */
 
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+  }
   .pokedex-home {
     display: grid;
     grid-template-columns: repeat (3,1fr);
@@ -76,6 +86,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr)); /* Updated property */
     gap: 20px;
+    max-width: 1200px;
+
   }
   
 
@@ -102,6 +114,7 @@ body {
     text-align: center;
     place-items: center;
     justify-content: center;
+    max-width: 490px;
     transition: 1s;
 
   }
