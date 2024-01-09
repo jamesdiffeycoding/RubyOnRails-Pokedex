@@ -1,6 +1,6 @@
 # RubyOnRails-Pokedex
 
-
+## How I made this app:
 
 	Install Ruby, Sqlite3 and Rails
 
