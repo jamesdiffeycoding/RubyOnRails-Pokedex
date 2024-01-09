@@ -1,0 +1,44 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Simple <div class="ruby-on-rails"> Ruby on Rails</div> Pokedex App</h1>
+<div class="grid-container">
+  <% @pokemonsters.each do |pokemonster| %>
+    <div id="pokemonsters" class="grid-item">
+    <%= render pokemonster  %>
+    <p>
+    <button>
+    <%= link_to "Show this pokemonster", pokemonster %>
+    </button>
+    </p>
+    </div>
+    <% end %>
+    <div class="add-pokemon-homescreen-container">
+      <button class="add-pokemon-homescreen-button">
+      <%= link_to "Add a Pokemon to the Pokedex", new_pokemonster_path %>
+      </button>
+    </div>
+</div>
+<div class="footer">
+<h3 class="dev-comments"> Comments from the developer: </h3>
+<p>
+This simple project was made using Ruby on Rails using Rails's scaffolding setup commands. It allows viewing, adding, editing and deleting pokemon.
+</p>
+<p>Huge thanks goes to Alvis Lin who helped me understand how to set up a project like this!
+</p>
+
+<hr>
+
+<p class ="now-i-know">
+"And now I know..."
+</p>
+<span> When setting up the project, I mistakenly called it "pokemon". This meant that "pokemon" became a reserved word, and so I ended up calling the individual pokemon datapoints "pokemonsters". This leads to some buttons refering to "pokemonsters" and some referring to "pokemon". Now I know!
+</span> 
+<br>
+<br>
+
+<hr>
+<br>
+<div class="center-portfolio-link">
+<a href="https://github.com/jamesdiffeycoding" class="button">Back to James's portfolio</a>
+<div>
+</div>

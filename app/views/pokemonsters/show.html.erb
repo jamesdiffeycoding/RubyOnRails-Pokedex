@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+<h1>Pokemon Profile</h1>
+
+<div class="show-item">
+<%= render @pokemonster %>
+
+<div>
+  <button>
+  <%= link_to "Edit this Pokemon", edit_pokemonster_path(@pokemonster) %>
+  </button>
+  <button>
+  <%= link_to "Back to Pokedex", pokemonsters_path %>
+  </button>
+  <%= button_to "Delete this Pokemon from the Pokedex", @pokemonster, method: :delete %>
+</div>
+</div>

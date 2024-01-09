@@ -1,0 +1,2 @@
+class Pokemonster < ApplicationRecord
+end

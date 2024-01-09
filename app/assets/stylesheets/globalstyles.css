@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  
+  body {
+    color: white;
+    background-color: #333333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #71b3fa;
+    text-decoration: underline;
+  }
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .navbar {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: #4b4b4b;
+    padding: 10px;
+    margin-top: 10rem;
+  }
+  
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  /* MY OWN STYLES */
+
+  .pokedex-home {
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    gap: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Updated property */
+    gap: 20px;
+  }
+  
+
+  .grid-item, .edit-item, .show-item, .add-item {
+    background-color: #d36666;
+    padding: 20px;
+    max-width: 450px;
+    border-radius: 10px;
+    transition: 1s;
+
+  }
+
+  .grid-item:hover, .edit-item:hover, .show-item:hover, .add-item:hover {
+    background-color: #fd8989;
+    transition: 1s;
+
+  }
+
+  .add-pokemon-homescreen-container {
+    background-color: #911c1c;
+    border-radius: 10px;
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    transition: 1s;
+
+  }
+
+  .add-pokemon-homescreen-button {
+    height:4rem;
+    border-radius: 10px;
+    transition: 1s;
+
+  }
+
+  .add-pokemon-homescreen-container:hover {
+    background-color: #c04a4a;
+    transition: 1s;
+  }
+
+  .dev-comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .now-i-know {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ruby-on-rails{
+    color: #911c1c;
+
+  }
+
+  .center-portfolio-link {
+    text-align: center;
+    justify-content: center;
+  }
