@@ -1,4 +1,4 @@
-# Awesun Solar Energy Visualiser
+# Ruby on Rails Pokedex
 
 ## Inspiration
 As a new developer, it is easy to get stuck in a bubble learning just one programming language and never daring to venture outside of it. **So I wondered, what if I stepped outside of that bubble for myself?**? 
