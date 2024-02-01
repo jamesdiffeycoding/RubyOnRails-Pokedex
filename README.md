@@ -1,7 +1,7 @@
 # Ruby on Rails Pokedex
 
 ## Inspiration
-As a new developer, it is easy to get stuck in a bubble learning just one programming language and never daring to venture outside of it. **So I wondered, what if I stepped outside of that bubble for myself?**? 
+As a new developer, it is easy to get stuck in a bubble learning just one programming language and never daring to venture outside of it. **So I wondered, what would it be like to step outside of that bubble for myself?**?
 
 I wanted to start filling the void of knowledge I had about languages other than JavaScript and TypeScript, and I started with Ruby.
 
